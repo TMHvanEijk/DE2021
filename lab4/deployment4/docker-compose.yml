@@ -14,7 +14,7 @@ services:
       - trainingdb_service
     environment:
       - TRAININGDB_API=http://trainingdb_service:5000/training-db/diabetes
-      - MODEL_REPO=model_repo_de2021
+      - MODEL_REPO=model_repo_de21
       - PROJECT_ID=data-engineering-325209
     networks:
       - training-pipeline
@@ -25,7 +25,7 @@ services:
     depends_on:
       - training_service
     environment:
-      - MODEL_REPO=model_repo_de2021
+      - MODEL_REPO=model_repo_de21
       - PROJECT_ID=data-engineering-325209
     networks:
       - prediction-pipeline

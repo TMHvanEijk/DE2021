@@ -12,7 +12,7 @@ COPY . .
 EXPOSE 5000
 # Enviroment Variables
 ENV PROJECT_ID=data-engineering-325209
-ENV MODEL_REPO=model_repo_de2021
+ENV MODEL_REPO=model_repo_de21
 # Run our App
 CMD ["python3","app.py"]
 
