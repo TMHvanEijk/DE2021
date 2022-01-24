@@ -9,7 +9,7 @@ volumes:
   notebooks:
     driver_opts:
       type: none
-      device: /home/t_m_h_v_eijka/notebooks
+      device: /home/t_m_h_v_eijk/notebooks
       o: bind
   spark-checkpoint:
     driver_opts:
