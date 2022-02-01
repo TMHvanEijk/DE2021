@@ -22,7 +22,7 @@ def kafka_python_producer_async(producer, msg, topic):
 
 if __name__ == '__main__':
     producer = KafkaProducer(bootstrap_servers='104.198.245.68:9092')  # use your VM's external IP Here!
-    with open('C:\TOM2021\DE2021\lab7\data\wordcount.txt') as f:
+    with open('C:\TOM2021\lab7\data\wordcount.txt') as f:
         lines = f.readlines()
 
     for line in lines:
