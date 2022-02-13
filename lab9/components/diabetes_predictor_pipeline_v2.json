@@ -77,7 +77,7 @@
               "python3",
               "component.py"
             ],
-            "image": "gcr.io/de2021-324520/dataingestor:latest"
+            "image": "gcr.io/data-engineering-course-325518/dataingestor:latest"
           }
         },
         "exec-train-mlp": {
@@ -96,7 +96,7 @@
               "python3",
               "component.py"
             ],
-            "image": "gcr.io/de2021-324520/mlptrainer:latest"
+            "image": "gcr.io/data-engineering-course-325518/mlptrainer:latest"
           }
         }
       }
