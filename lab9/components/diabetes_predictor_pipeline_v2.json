@@ -186,6 +186,6 @@
     "sdkVersion": "kfp-1.8.9"
   },
   "runtimeConfig": {
-    "gcsOutputDirectory": "gs://dejads_temp"
+    "gcsOutputDirectory": "gs://dejads_temp1"
   }
 }

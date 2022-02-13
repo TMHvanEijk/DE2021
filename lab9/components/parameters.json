@@ -1,6 +1,6 @@
 {
-  "project_id": "de2021-324520",
-  "data_bucket": "dejads_input",
+  "project_id": "data-engineering-course-325518",
+  "data_bucket": "dejads_input1",
   "trainset_filename": "training_set.csv",
-  "model_repo": "model_repo_de2021"
+  "model_repo": "model_repo_de2021_1"
 }
